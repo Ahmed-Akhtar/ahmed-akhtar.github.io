@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Interests - Ahmed Ali Akhtar, Ph.D.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight">
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="colorlib-active"><a href="interests.html">Interests</a></li>
+					<li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=CicvIg0AAAAJ">Publications</a></li>
+					<li><a href="other-writings.html">Other writings</a></li>
+					<li><a href="Physics_CV_v2.pdf">Curriculum vitae</a></li>
+				</ul>
+			</nav>
+		</aside> <!-- END COLORLIB-ASIDE -->
+
+		<div id="colorlib-main">
+			<section class="ftco-section pt-4 mb-5 ftco-intro">
+				<div class="container-fluid px-3 px-md-0">
+					<h1 class="h3">Research Interests</h1>
+					    <p>I work in the field of theoretical condensed matter physics and 
+					    quantum information. I am interested in a diverse range of quantum phenomena, 
+					    such as many-body entanglement, many-body localization, measurement-induced 
+					    phase transitions, topological matter, tensor networks, and 
+					    classical shadow tomography. All of my work utilizes a mix of 
+					    theoretical and numerical tools. </p>
+    				<ol start="1"><h1 class="h5"><li>Many-body entanglement dynamics</li></h1></ol>
+    				<p>Entanglement quantifies how quantum information spreads over space 
+    				and time. Whether quantum matter obeys an entanglement area-law or entanglement 
+    				volume-law can reveal much about its phase, topology, error-correcting 
+    				capacity, etc. However, the curse of dimensionality means that there is 
+    				<i>a lot</i> of entanglement data: one for each bipartition of a system.</p>
+    				<p>In [1,2], we have studied a class of random quantum circuits which 
+    				erase local basis information. We found that these ubiquitous models are amenable 
+    				to analytical and numerical treatment because they admit a Markovian description. 
+    				This allowed us to discover a correction to contiguous-region entanglement dynamics 
+    				from disconnected regions that were missing from previous coarse-grained analyses. 
+    				Furthermore, we found that the entire entanglement spectrum, i.e. entanglement 
+    				for all possible bipartitions arranged according to region size, is captured by 
+    				just two parameters: the cost of creating an entanglement domain wall and the 
+    				slope of entanglement with sub-system size. This insight provided numerical 
+    				and analytical tools to study quantum information dynamics in random circuits. 
+    				What other models of &ldquo;exactly-solvable&rdquo; entanglement dynamics are 
+    				there and what can we learn from them? </p>
+    				<p>In past works, we developed a notion of an <i>entanglement-features Hamiltonian</i>, 
+    				which defines an imaginary-time Schrodinger equation for the entanglement data 
+    				itself. However, entanglement dynamics only characterizes one aspect of quantum 
+    				complexity&ndash;the other is magic, which characterizes the &ldquo;stabilizerness&rdquo; 
+    				of a quantum state. Is there a <i>magic-features Hamiltonian</i>, 
+    				and what can it tell us about quantum complexity and chaos? We know that quantum chaos 
+    				is inherently magical [3]. Moreover, recent works have developed one way to 
+    				quantify magic called <i>CSS entropy</i>which was used to study magic dynamics 
+    				in a brick-wall random circuit, suggesting that a magic-features Hamiltonian 
+    				may not be so inconceivable [4]. Furthermore, a magic-features Hamiltonian 
+    				could shed light on how a single, non-Clifford gate can drive transitions in 
+    				sampling outcomes or shift the entire entanglement spectrum [5,6]. The simplicity of 
+    				these circuit models implies that they may also have tractable entanglement dynamics, 
+    				providing a playground to study magic and entanglement dynamics simultaneously.</p>
+				    <table>
+        				<tr>
+            			<td colspan="2" rowspan="1">
+                			<p align="center"><b>Entanglement for all Possible Bipartitions, 
+                			Sorted by Partition Size</b></p>
+            			</td>
+        			</tr>
+        			<tr>
+            			<td colspan="1" rowspan="1">
+                			<p class="c12"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 367.10px; height: 216.80px;"><img alt="" src="research-statement-materials/images/image6.png" style="width: 367.10px; height: 216.80px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+            			</td>
+            			<td colspan="1" rowspan="1">
+                			<p>Caption: Entanglement data for typical states has an interesting 
+                			structure to it. The minimal entanglement is for contiguous regions, 
+                			depicted in red. The contiguous bipartition acts as a kind of gapped 
+                			ground state, separating a continuum of excited states formed by 
+                			adding domain walls while keeping the size of the bipartition fixed. 
+                			The gap, along with the &ldquo;cost&rdquo; of increasing the size 
+                			of the bipartition, fully characterize the entanglement &ldquo;spectrum.&rdquo;</p>
+            			</td>
+        			</tr>
+    				</table>
+    				<ol start="2"><h1 class="h5"><li>Classical Shadow Tomography</li></h1></ol>
+    				<p>Classical shadow tomography is an efficient protocol for predicting properties of quantum states. 
+    				Due to its simplicity, it has direct applicability on existing quantum devices. Traditionally, the 
+    				literature has focused on two tomography schemes: Pauli measurements, which are useful for predicting 
+    				low-weight operators, and Clifford measurements, which are useful for predicting low-rank operators. 
+    				The two schemes correspond to the <i>t=0</i> and <i>t=&#8734;</i> limits of a brick-wall circuit 
+    				composed of Clifford gates. In [10,11], we demonstrated an efficient technique for performing 
+    				classical shadow tomography in the shallow circuit regime inspired by tensor networks. We found that 
+    				these intermediate schemes can be useful for predicting quasi-local operators, as well as estimating 
+    				fidelity without having to apply global Clifford gates, which can be difficult to implement in current devices.</p>
+					<table>
+						<tr>
+							<td colspan="1" rowspan="1">
+								<p align="center"><b>Using Shallow Quantum Circuits for Classical Shadow Tomography</b></p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="1">
+								<p>Caption: Classical Shadow Tomography is a powerful, yet deceptively simple, scheme for 
+								learning properties of a quantum state. It consists of three steps repeated over and over: 
+								apply a random unitary from a fixed ensemble, measure all the qubits, (classically) record 
+								the measurement outcome and the specific unitary which was applied. If we choose the 
+								unitary ensemble wisely, we can optimize for predicting different types of operators. In 
+								shallow-circuit tomography, the choice of ensemble is a brick-wall circuit composed of 
+								random two-local Clifford rotations. By interpolating between locally and globally 
+								scrambling regimes, shallow circuit tomography is good at predicting a wide range of 
+								operators.</p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="1">
+								<p class="c8" align="center"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 369.73px; height: 209.10px;"><img alt="" src="research-statement-materials/images/image5.png" style="width: 369.73px; height: 209.10px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+							</td>
+						</tr>
+					</table>
+	
+					<p>We also studied finite-depth circuits composed of dual-unitary gates, rather than Clifford gates, 
+					in classical shadow tomography. It is well known that dual-unitary gates are good at scrambling 
+					quantum information, and have found use in many exotic areas of physics such as modeling black 
+					hole phenomena. In our work, we show that the fast-scrambling nature of dual-unitary gates allows 
+					them to more quickly approach the Clifford measurement <i>t=&#8734;</i> limit than brick-wall 
+					Clifford circuits. </p>
+					<p>We also find that the operator spreading dynamics in such circuits exhibit rich physics, 
+					including light-cones and chiral excitations. Since quantum phases can broadly be characterized 
+					by states related by some sequence of local (unitary or non-unitary) operations, and such 
+					operations can similarly define a classical shadow scheme, I would like to explore what insights 
+					into the theory of quantum phases of matter can be gleaned from this practical framework. 
+					Dual-unitary circuits also provide an exactly solvable &ldquo;minimal model&rdquo; for quantum chaos. 
+					What can we learn about optimal shadow tomography for other exactly solvable models such as free 
+					fermions (matchgates), free bosons (linear optics), SYK models, etc.?</p>
+					<table>
+						<tr>
+							<td colspan="2" rowspan="1">
+								<p align="center"><b>Dual Unitary Gates Produce Chiral Pauli Weight Dynamics</b></p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="1">
+								<p class="c8"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 293.07px; height: 248.04px;"><img alt="" src="research-statement-materials/images/image8.png" style="width: 293.07px; height: 248.04px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+							</td>
+							<td colspan="1" rowspan="1">
+								<p class="c8"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 287.83px; height: 243.23px;"><img alt="" src="research-statement-materials/images/image9.png" style="width: 287.83px; height: 243.23px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" rowspan="1">
+								<p>Caption: The dynamics of the weight of an operator under a brick-wall quantum 
+								circuit are very different depending on whether we use Clifford or Dual-Unitary gates. 
+								The figures above depict the support of an initially localized observable as it 
+								evolves under a brick-wall circuit composed of Clifford gates (left) or Dual-Unitary 
+								gates (right). At each step, the weight can move, branch, or fuse with neighboring weights. 
+								In the Dual-Unitary setting, the weight has an inherent chirality, so that it will continue 
+								to propagate in a given direction until it&rsquo;s fused or hits a boundary. 
+								Within the light-cone, the operator is rapidly scrambled. The competition between 
+								ballistic spreading of the Pauli weight and scrambling within the bulk results in 
+								logarithmic scaling of the optimal circuit depth with the operator size.</p>
+							</td>
+						</tr>
+					</table>
+					<p>More generally, I am interested in how classical shadow tomography can be used to diagnose 
+					quantum complexity. One characterization of complexity that arises naturally in classical shadow 
+					tomography is the shadow norm, which specifies how hard it is to predict an operator given a 
+					particular classical shadow tomography scheme. The shadow norm adds nuance to the traditional 
+					notions of quantum complexity, as the &ldquo;complexity&rdquo; is now relative to an operator 
+					<i>and</i> a particular kind of dynamics. How does this shadow norm relate to other measures 
+					of quantum complexity or quantum information dynamics?</p>
+					<p>The dynamics of quantum systems are still being explored, for example, in notions of 
+					chaos and scrambling. Previous works have shown that chaos is not simply scrambling e.g. even 
+					integrable systems with unstable fixed points can be strong scramblers [12,13]. Can the shadow 
+					norm distinguish between these two concepts? Little is known about the effectiveness of 
+					classical shadow protocols outside of a handful of solvable examples. In classical shadow tomography, 
+					the rich interplay between state, hamiltonian, and observable is still largely unknown. The 
+					existence of a kind of general &ldquo;glossary&rdquo; in classical shadow tomography, where 
+					one inputs a state, a hamiltonian, and an operator, and gets a shadow norm as output, would be 
+					useful on a numerical and theoretical level.</p>
+
+					<ol start="3"><h1 class="h5"><li>Dynamical Phase Transitions</li></h1></ol>
+					
+					<p>Disorder can localize particles through destructive interference and
+					scattering. Whether such localization can persist in the presence of
+					interactions and allow a quantum system to evade thermalization is the central
+					question in many-body localization. These are a kind of dynamical phase
+					transition which is in part characterized by a transition in the scaling of the
+					many-body entanglement. Another such example is the measurement-induced phase
+					transitions, where one tunes the measurement rate <i>p</i> to drive an entanglement
+					transition.</p>
+					
+					<p>In [7,8], we have studied localization in the low-lying states of the
+					massless Schwinger model through a variety of numerical techniques including
+					simulation using matrix product states and exact diagonalization to study
+					eigenvalue statistics. More recently, we revisited the measurement-induced phase
+					transition when viewed as a classical shadow tomography prediction scheme. We
+					found that the optimal scaling of the sample complexity &#120515; is obtained at
+					precisely the critical point separating the area and volume-law phases. There
+					are several unfinished questions I would like to explore here: what is the
+					nature of the critical point? How does it change when we incorporate symmetries?
+					Will other dynamical transitions exhibit tomographic optimality, such as
+					disorder-induced localization transitions? </p>
+					
+					<p class="c12"><span>Recent works in measurement-induced criticality have
+					incorporated how symmetry can modify the transition [9]. In the case of a
+					<i>U(1)</i> symmetry, researchers found that the volume
+					law phase splits into a charge-fuzzy and charge-sharp phase, depending on
+					whether the measurements effectively collapse charge fluctuations. In the
+					charge-sharp phase, an neutral observer can learn the total amount of charge in
+					a subregion, whereas in the charge-fuzzy phase they cannot. How does this
+					learnability transition manifest in the structure of the measurement channel of
+					the corresponding classical shadow tomography scheme? How is the optimality
+					parameter &#120515; modified in the presence of symmetries?</p>
+					
+					<table>
+						<tr>
+							<td colspan="2" rowspan="1">
+								<p align="center"><b>Measurement-Induced Criticality is Tomographically Optimal</b></p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="1" rowspan="1">
+								<p class="c12 c27"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 250.44px; height: 212.73px;"><img alt="" src="research-statement-materials/images/image7.png" style="width: 250.44px; height: 212.73px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+							</td>
+							<td colspan="1" rowspan="1">
+								<p>Caption: Suppose we could do classical shadow tomography using
+								intermittent measurements, performed with probability <i>p</i>, with
+								the goal of predicting observables with arbitrarily large support.
+								We can characterize our efficacy at prediction by &#120515;, which
+								tells us how the number of runs one has to do to reliably predict an
+								operator scales with the spatial extent of the operator. We find
+								that this quantity &#120515; is minimized at measurement induced
+								criticality. In the area-law phase, this is because reducing the
+								rate of measurements models shallow-circuit tomography. In the
+								volume-law phase, this is because quantum information can evade
+								successfully capture from infrequent measurements.</p>
+							</td>
+						</tr>
+					</table>
+					<h1 class="h5">References:</h1>
+					<ol start="1">
+						<li class="c6 li-bullet-0"><span>Kuo, Akhtar, You and Arovas. (2020). </span><span class="c4">Markovian entanglement dynamics under locally scrambled quantum evolution</span><span>. </span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.224202&amp;sa=D&amp;source=editors&amp;ust=1730145920961776&amp;usg=AOvVaw1QyV15UAymJTVyG3tN2-M-">PRB</a></span><span class="c3">.</span></li>
+						<li class="c6 li-bullet-0"><span>Akhtar and You. (2020). </span><span class="c4">Multiregion entanglement in locally scrambled quantum dynamics.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.134203&amp;sa=D&amp;source=editors&amp;ust=1730145920962006&amp;usg=AOvVaw0Rd5zqU83TAotWKr1ioZRK">PRB</a></span><span class="c3">.</span></li>
+						<li class="c6 li-bullet-0"><span>Leone, Oliviero, Zhou and Hamma. (2021). </span><span class="c4">Quantum Chaos is Quantum</span><span>. </span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2102.08406&amp;sa=D&amp;source=editors&amp;ust=1730145920962222&amp;usg=AOvVaw0uH8bcKy5fl-2A3xDjGWWg">arXiv</a></span><span>.</span></li>
+						<li class="c6 li-bullet-0"><span>Turkeshi, Tirrito, and Sierant. (2024). </span><span class="c4">Magic spreading in random quantum circuits.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2407.03929&amp;sa=D&amp;source=editors&amp;ust=1730145920962489&amp;usg=AOvVaw1VoxnZ8jNQtPt808NCa-MR">arXiv</a></span><span class="c3">. </span></li>
+						<li class="c6 li-bullet-0"><span>Hinsche et. al. (2022). </span><span class="c4">A single T-gate makes distribution learning hard.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2207.03140&amp;sa=D&amp;source=editors&amp;ust=1730145920962729&amp;usg=AOvVaw3rJrOlHKPteMzMBMbb8kZN">arXiv</a></span><span class="c3">. </span></li>
+						<li class="c6 li-bullet-0"><span>Zhou, Yang, Hamma, Chamon. (2020). </span><span class="c4">Single T gate in a Clifford circuit drives transition to universal entanglement spectrum statistics.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/1906.01079&amp;sa=D&amp;source=editors&amp;ust=1730145920962941&amp;usg=AOvVaw0uxcXJ5sRdIGmYpGoxLwl7">arXiv.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Akhtar, Nandkishore, and Sondhi. (2018). </span><span class="c4">Symmetry breaking and localization in a random Schwinger model with commensuration.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://journals.aps.org/prb/abstract/10.1103/PhysRevB.98.115109&amp;sa=D&amp;source=editors&amp;ust=1730145920963180&amp;usg=AOvVaw0Drm3RgqA9AM3QxNspVyAn">PRB.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Akhtar, Hu, and You. (2024). </span><span class="c4">Measurement-induced criticality is tomographically optimal.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.094209&amp;sa=D&amp;source=editors&amp;ust=1730145920963387&amp;usg=AOvVaw3Ko_Foc9eg0vTk3hn6aCUz">PRB.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Barratt et. al. (2022). </span><span class="c4">Transitions in the learnability of global charges from local measurements.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2206.12429&amp;sa=D&amp;source=editors&amp;ust=1730145920963576&amp;usg=AOvVaw3CRW-vXfEuEReuCWX0oU53">arXiv.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Akhtar, Hu and You. (2023). </span><span class="c4">Scalable and Flexible Classical Shadow Tomography with Tensor Networks.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://quantum-journal.org/papers/q-2023-06-01-1026/&amp;sa=D&amp;source=editors&amp;ust=1730145920963774&amp;usg=AOvVaw0PKKYx3QOGgDEwzYr9vgUy">Quantum.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Akhtar, Anand, Marshall and You. (2024). </span><span class="c4">Dual-Unitary Classical Shadow Tomography.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2404.01068&amp;sa=D&amp;source=editors&amp;ust=1730145920964054&amp;usg=AOvVaw1fXycdbybPDuOThvXU0Ib-">arXiv.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Xu, Scaffidi, and Cao. (2019). </span><span class="c4">Does scrambling equal chaos?</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/1912.11063&amp;sa=D&amp;source=editors&amp;ust=1730145920964307&amp;usg=AOvVaw1dhJfqsCyEmuEtovCHFAvg">arXiv.</a></span></li>
+						<li class="c6 li-bullet-0"><span>Dowling, Kos and Modi. (2023). </span><span class="c4">Scrambling is Necessary but Not Sufficient for Chaos.</span><span>&nbsp;</span><span class="c1"><a class="c0" href="https://www.google.com/url?q=https://arxiv.org/abs/2304.07319&amp;sa=D&amp;source=editors&amp;ust=1730145920964514&amp;usg=AOvVaw1HA1FDDfZSHxoFzXsaJwLy">arXiv.</a></span></li>
+					</ol>
+				</div>
+			</section>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
